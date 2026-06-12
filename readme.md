@@ -101,8 +101,6 @@ python main.py
 
 ## Screenshot
 
-Add a screenshot of the game here:
-
 
 ![Gameplay](assets/screenshot.png)
 

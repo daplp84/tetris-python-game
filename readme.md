@@ -103,9 +103,9 @@ python main.py
 
 Add a screenshot of the game here:
 
-```markdown
+
 ![Gameplay](assets/screenshot.png)
-```
+
 
 ---
 

@@ -1,3 +1,13 @@
+"""
+renderer.py
+
+Handles all graphical rendering operations.
+
+This module is responsible for creating the game
+canvas and drawing the current board state and
+active tetromino using Tkinter.
+"""
+
 import constants
 import tkinter as tk
 import board
@@ -8,6 +18,12 @@ import shapes
 canvas = None
 
 def initialize_canvas(root):
+    """
+    Creates and configures the game canvas.
+
+    Args:
+        root: Main Tkinter window.
+    """
     global canvas
     canvas = tk.Canvas(
         root, 
@@ -21,6 +37,12 @@ def initialize_canvas(root):
 
 
 def draw():
+    """
+    Renders the current game state.
+
+    Draws the board and overlays the active
+    tetromino on top of the existing cells.
+    """
     canvas.delete('all')
     for x in range(constants.COLUMNS_QTY):
         for y in range(constants.ROWS_QTY):

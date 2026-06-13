@@ -26,7 +26,7 @@ current_shape_y = None
 current_shape = shapes.void_shape
 
 # Update interval in milliseconds.
-speed = 1000
+speed = 500
 
 # Game state flags.
 is_paused = False
@@ -266,7 +266,7 @@ def decide_new_game(root):
     """
     play_sound()
     global is_game_over
-    decision = messagebox.askyesno(title="Game Over", message="Game over!. Do you want to play again?")
+    decision = messagebox.askyesno(title="Game Over", message=f"Game over!.\nYour score: {score}.\nDo you want to play again?")
     if decision:
         board.reset_board()
         reset_shape()

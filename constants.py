@@ -8,8 +8,8 @@ and color definitions for the different tetrominoes.
 """
 
 # Window dimensions.
-WINDOW_WIDTH = 800
-WINDOW_HEIGHT = 600
+WINDOW_WIDTH = 480
+WINDOW_HEIGHT = 602
 
 # Game board dimensions.
 GAMEBOARD_WIDTH = 400

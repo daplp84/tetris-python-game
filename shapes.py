@@ -39,5 +39,13 @@ ray_shape= [
     [constants.VOID_COLOR, constants.RAY_COLOR]
 ]
 
+# X-Shaped tetromino.
+x_shape= [
+    [constants.VOID_COLOR, constants.X_COLOR, constants.VOID_COLOR],
+    [constants.X_COLOR, constants.X_COLOR, constants.X_COLOR],
+    [constants.VOID_COLOR, constants.X_COLOR, constants.VOID_COLOR]
+]
+
+
 # Represents the absence of an active piece.
 void_shape= [constants.VOID_COLOR]

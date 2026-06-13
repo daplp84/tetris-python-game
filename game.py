@@ -100,7 +100,8 @@ def new_shape():
         shapes.t_shape,
         shapes.square_shape,
         shapes.i_shape,
-        shapes.ray_shape
+        shapes.ray_shape,
+        shapes.x_shape
     ])
 
     current_shape = np.rot90(shape, random.randint(0, 3))

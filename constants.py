@@ -25,6 +25,7 @@ T_COLOR = "#1ba300"
 SQUARE_COLOR = "#0076d1"
 I_COLOR = "#ff9408"
 RAY_COLOR = "#ff08e6"
+X_COLOR = "#fe0000"
 
 # Empty cell color.
 VOID_COLOR = "#d5d5d5"
